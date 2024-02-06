@@ -3,18 +3,13 @@ import template from "./About.jsx";
 
 class About extends React.Component {
   render() {
+    <div>
+        
+      </div>
     return template.call(this);
   }
 }
 
 
-const About = () => {
-  return (
-      <div>
-          <h2>About</h2>
-          {/* Add content for the About page */}
-      </div>
-  );
-}
 
 export default About;

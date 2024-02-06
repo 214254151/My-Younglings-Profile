@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import About from './About';
+import About from './components/About';
 
 function App() {
   return (
@@ -15,26 +15,13 @@ function App() {
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        >Learn React</a>
+          
+        
       </header>
     </div>
   );
 }
 
-const App = () => {
-  return (
-      <div>
-          <About />
-          <Services />
-          <Projects />
-          <Contact />
-      </div>
-  );
-}
 
-
-
-
-export default App;
+export default About;

@@ -5,6 +5,7 @@ function template() {
   return (
     <div className="about">
       <h1>About</h1>
+      <p>lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa</p>
     </div>
   );
 };

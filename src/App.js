@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import About from './About';
 
 function App() {
   return (
@@ -21,5 +22,19 @@ function App() {
     </div>
   );
 }
+
+const App = () => {
+  return (
+      <div>
+          <About />
+          <Services />
+          <Projects />
+          <Contact />
+      </div>
+  );
+}
+
+
+
 
 export default App;

@@ -1,14 +1,17 @@
 import './App.css';
+
 // import About from './components/About';
+
 
 function App() {
   return (
-    <div className="mainFrame">
 
-<img className="logo" alt="logo" src="logo.png" /> 
+    <div className="mainAppFrame">  
+      <div className="mainFrame">
         <div className="nav-bar">
+        <img className="logo" alt="logo" src="logo.png" />
         
-          <div className="nav-bar > div"> 
+          
                 <div className="home-cage">
                   <div className="text-wrapper">Home</div>
                 </div>
@@ -29,17 +32,15 @@ function App() {
                 <div className="contact-cage">
                   <div className="text-wrapper">Contact</div>
                 </div>
-          </div> 
-        </div> 
+          </div>  
+        
 
 
         
         
 
-        <div className="removebg-wrapper">
-          
-        </div>
-        
+
+      
         <div className="text-hi">Hi!</div>
         <div className="itsMe">it’s me</div>
         <div className='text-wrapper'>Abongile  Tshopi</div>
@@ -56,7 +57,7 @@ function App() {
 
 
 
-         
+      </div>  
     </div>
   );
 }

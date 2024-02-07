@@ -1,13 +1,8 @@
-import "./About.css";
-import React from "react";
+import './App.css';
+// import About from './components/About';
 
-function template() {
-  return (
-    <div className="about">
-      <h1>About</h1>
-      <p>lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa lusa</p>
-    </div>
-  );
-};
+function App() {
 
-export default template;
+}
+
+export default App;

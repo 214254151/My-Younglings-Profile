@@ -1,27 +1,52 @@
-import logo from './logo.svg';
 import './App.css';
-import About from './components/About';
+// import About from './components/About';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Welcome to my digital Space.</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Learn React</a>
+    <div className="mainFrame">
+      
+
+        <div className="nav-bar">
+
+          <div className="homeFrame">
+            
+          <div className="home-cage">
+            <div className="text-wrapper">Home</div>
+          </div>
+
+          <div className="about-cage">
+            <div className="text-wrapper">About</div>
+          </div>
+
+          <div className="services-cage">
+            <div className="text-wrapper">Services</div>
+          </div>
+
+          <div className="project-cage">
+            <div className="text-wrapper">Projects</div>
+          </div>
+
+
+          <div className="contact-cage">
+            <div className="text-wrapper">Contact</div>
+          </div>
           
+          
+
+
+          
+          
+          
+        </div>
+
         
-      </header>
+        
+
+
+
+        </div>  
     </div>
   );
 }
 
-
-export default About;
+export default App;

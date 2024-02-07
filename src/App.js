@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="mainFrame">
 
-{/* <img className="logo" alt="logo" src="logo.png" /> */}
+<img className="logo" alt="logo" src="logo.png" /> 
         <div className="nav-bar">
         
           <div className="nav-bar > div"> 

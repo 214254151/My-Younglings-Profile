@@ -4,7 +4,7 @@ import template from "./About.jsx";
 class About extends React.Component {
   render() {
     <div>
-        
+        <p>World Hello</p>
       </div>
     return template.call(this);
   }

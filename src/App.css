@@ -113,5 +113,20 @@
   
 }
 
+.home-cage{
+  background-color: rgb(0, 255, 255);
+  size: 10px;
+  height: fit-content;
+}
+
+.menu-cage{
+  /* background-color: rgb(208, 252, 252); */
+  size: 10px;
+  height: fit-content;
+  margin-right: 70px;
+  
+}
+
+
 
 

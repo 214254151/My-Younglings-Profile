@@ -58,9 +58,9 @@ function App() {
           
         </div>
 
-        {/* <div className="waves-image">
-          <img className="waves" alt="wavesPic" src="waves.jpg" />
-        </div> */}
+        <div className="waves-cage">
+          <img className="waves" alt="wavesPic" src="waves.png" />
+        </div>
       </div>
     </div>
   );

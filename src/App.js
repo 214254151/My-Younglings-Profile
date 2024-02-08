@@ -30,9 +30,8 @@ function App() {
           </div>
         </div>
 
-        <div className="homepage_content">
-
-          <div className="homepage_roles">
+        <div className="homepage-content">
+          <div className="homepage-roles">
             <div className="text-hi">Hi!</div>
             <div className="itsMe">it’s me</div>
             <div className="text-wrapper">Abongile Tshopi</div>
@@ -46,10 +45,20 @@ function App() {
             </p>
           </div>
 
-          <div className="homepage_image">
-            <img className="mountyns" alt="Mountyns" src="mountyns-1.png" />
+          <div className="homepage-image">
+            <img
+              className="homePagePic"
+              alt="homePagePic"
+              src="homePagePic.png"
+              height={"500"}
+            />
           </div>
         </div>
+
+        {/* <div className="waves-image">
+          <img className="waves" alt="wavesPic" src="waves.jpg" />
+        </div> */}
+        
       </div>
     </div>
   );

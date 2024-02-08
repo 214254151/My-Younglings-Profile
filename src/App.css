@@ -10,24 +10,20 @@
   /* styles removed 
 }*/
 
-
-
-
-.mainAppFrame{
+.mainAppFrame {
   background-color: #c0539c82;
 }
 
 .mainFrame {
-  border-style:outset;
+  border-style: outset;
   text-align: center;
-  position:absolute;
-  width: 100%;  
+  position: absolute;
+  width: 100%;
   height: 100vh;
-  background-color: #8287ff82; 
+  background-color: #8287ff82;
 
-  
   border-bottom-right-radius: 5dvb;
-  border-bottom-left-radius: 5dvb; 
+  border-bottom-left-radius: 5dvb;
   border-top-right-radius: 5dvb;
   border-top-left-radius: 5dvb;
 
@@ -38,19 +34,18 @@
 }
 
 .nav-bar {
-  display:flex;
+  display: flex;
   justify-content: right;
   /* margin-bottom: 800px; */
   background-color: #ffffff;
   padding: auto;
-  width: 100%; 
+  width: 100%;
   height: 70px;
   border-top-right-radius: 5dvb;
   border-top-left-radius: 5dvb;
 }
 
-.logo{
-  
+.logo {
   width: 60px;
   height: 60px;
   margin-right: 770px;
@@ -71,11 +66,7 @@
   padding: 10px;
 }
 
-
-
 /* ----------------------------------------- navigation bar */
-
-
 .nav-bar > div {
   display: flex;
   align-items: center;
@@ -83,26 +74,44 @@
   padding: 10px;
 }
 
-.homepage_content{
-  display: flex;
-  margin-top: 8rem;
-  margin-left: 5rem;
-  column-gap: 2rem;
-}
-
 @media screen and (max-width: 768px) {
   .nav-bar {
     justify-content: center; /* Center items on smaller screens */
-    height: auto; 
-    flex-wrap: wrap; 
+    height: auto;
+    flex-wrap: wrap;
   }
 
   .logo {
     margin-right: auto; /* Move logo to the left on smaller screens */
-    margin-left: 20px; 
+    margin-left: 20px;
   }
 
   .text-wrapper {
     font-size: 18px; /* Decrease font size on smaller screens if needed */
   }
 }
+
+.homepage-content {
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  column-gap: 2rem;
+}
+
+.homepage-image {
+
+  margin-top: -7rem;
+  
+  margin-left: 150px;
+
+
+
+ 
+  object-fit: cover;
+  
+  
+  
+}
+
+
+

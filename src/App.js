@@ -55,6 +55,7 @@ function App() {
               height={"550"}
             />
           </div>
+          
         </div>
 
         {/* <div className="waves-image">

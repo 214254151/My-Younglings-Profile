@@ -83,6 +83,12 @@
   padding: 10px;
 }
 
+.homepage_content{
+  display: flex;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  column-gap: 2rem;
+}
 
 @media screen and (max-width: 768px) {
   .nav-bar {

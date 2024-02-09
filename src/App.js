@@ -30,7 +30,7 @@ function App() {
               <div className="text-wrapper">Services</div>
             </div>
 
-            <div className="project-cage">
+            <div className="projects-cage">
               <div className="text-wrapper">Projects</div>
             </div>
 

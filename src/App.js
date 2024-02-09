@@ -35,10 +35,16 @@ function App() {
         <div className="homepage-content">
           <div className="homepage-roles">
             <div className="text-hi">Hi!</div>
+            <br></br>
+            <br></br>
+            <br></br><br></br><br></br>
+            <br></br>
+            <br></br>
+            
             <div className="itsMe">it’s me</div>
-            <div className="text-wrapper">Abongile Tshopi</div>
-            <div className="and">And I am a</div>
-            <div className="text-wrapper">Junior Software Developer</div>
+            <div className="myName">Abongile Tshopi</div>
+            <div className="and">And I am a <span >Junior Software Developer</span> </div>
+            {/* <div className="Junior">Junior Software Developer</div> */}
 
             <p className="enthusiastic-junior">
               Enthusiastic Junior Software Developer with a dedication to
@@ -52,7 +58,7 @@ function App() {
               className="homePagePic"
               alt="homePagePic"
               src="homePagePic.png"
-              height={"550"}
+              height={"520"}
             />
           </div>
           

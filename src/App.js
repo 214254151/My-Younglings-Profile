@@ -1,9 +1,17 @@
 import "./App.css";
+// import About from "./components/About/About";
+// import About from './components/About/About';
 
-// import About from './components/About';
+
 
 function App() {
   return (
+    // <div className="App">
+    //   <About/>
+    // </div>
+
+
+
     <div className="mainAppFrame">
       <div className="mainFrame">
         <div className="nav-bar">
@@ -43,13 +51,13 @@ function App() {
             
             <div className="itsMe">it’s me</div>
             <div className="myName">Abongile Tshopi</div>
-            <div className="and">And I am a <span >Junior Software Developer</span> </div>
+            <div className="and">And I am a <span className="Junior">Junior Software Developer</span> </div>
             {/* <div className="Junior">Junior Software Developer</div> */}
 
-            <p className="enthusiastic-junior">
+            <p className="enthusiastic-junior"><i>
               Enthusiastic Junior Software Developer with a dedication to
               creating quality software solutions <br />
-              and delivering impactful work across the development stack.
+              and delivering impactful work across the development stack.</i>
             </p>
           </div>
 
@@ -58,7 +66,7 @@ function App() {
               className="homePagePic"
               alt="homePagePic"
               src="homePagePic.png"
-              height={"520"}
+              height={"500"} width={"258"}
             />
           </div>
           

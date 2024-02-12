@@ -64,42 +64,56 @@ function servicesPage() {
 <div className="frontEndCard">
 <div class="innerCard">
             <div class="frontSide">
-                <p class="title">Designer</p>
-                <img className="designIcon" alt="designIcon" src="design-icon.png" width={150} height={150} />
-                <p>I craft visually appealing and user-friendly interfaces 
-                  for websites and applications.</p>
+                <p class="title">FrontEnd</p>
+                <img className="frontEndIcon" alt="frontEndIcon" src="frontEndIcon.png" width={150} height={150} />
+                <p>Structuring web content for browsers. Implementing anime to enhance user experience.
+                    Ensuring websites function consistently across different browsers.</p>
             </div>
             <div class="backSide">
                 <p class="title">Technologies I use:</p>
-                <p> Adobe Pack<br></br>
-                      MarvelApp<br></br>
-                      Figma<br></br>
-                      Lucidchart<br></br>
-                      SmartDraw<br></br>
-                      Balsamiq
+                <p>   HTML & CSS<br></br>
+                      JavaScrip <br></br>
+                      React<br></br>
+                      Anjular<br></br>
                 </p>
             </div>
         </div>
+</div>
+
+{/* -------------------BackEnd ----------------------*/}
+<div className="backEndCard">
+<div class="innerCard">
+            <div class="frontSide">
+                <p class="title">Backend</p>
+                <img className="frontEndIcon" alt="backEndIcon" src="database.png" width={150} height={150} />
+                <p>Designing and interacting with databases to store and retrieve information. 
+                  Creating interfaces for communication between different parts of a software application.</p>
+            </div>
+            <div class="backSide">
+                <p class="title">Technologies I use:</p>
+                <p>   
+                  SQLite<br></br>
+                  Java<br></br>
+                  Python<br></br>
+                  Node Js<br></br>
+                  Email Js<br></br>
+                </p>
+            </div>
+        </div>
+</div>
+
 
 </div>
 
 
 
-    </div>
-{/*
-    <div class="myCard">
-        <div class="innerCard">
-            <div class="frontSide">
-                <p class="title">FRONT SIDE</p>
-                <p>Hover Me</p>
-            </div>
-            <div class="backSide">
-                <p class="title">BACK SIDE</p>
-                <p>Leave Me</p>
-            </div>
-        </div>
-    </div> */}
-  
+
+
+
+
+
+
+  {/* closinf the main frames */}
     </div>
 </div>  
   );

@@ -35,17 +35,21 @@ function servicesPage() {
 
 
 {/* ------------------my cards-------------------------------- */}
-        <div className="myCard">
-          <div className="innerCard">
-          <p class="title">I am a designer</p>
-                <p>I design visual appealing UI/UX</p>
+
+
+<div class="myCard">
+        <div class="innerCard">
+            <div class="frontSide">
+                <p class="title">FRONT SIDE</p>
+                <p>Hover Me</p>
             </div>
             <div class="backSide">
-                <p class="title">Technologies I use</p>
-                <p>Figma</p>
+                <p class="title">BACK SIDE</p>
+                <p>Leave Me</p>
             </div>
-
-          </div>
+        </div>
+    </div>
+  
         </div>
 
         </div>

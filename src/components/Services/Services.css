@@ -219,6 +219,14 @@
     font-family: "Nunito-Bold", Helvetica;
   }
   
+  .backSide .title{
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: -71px;
+    font-family: "Nunito-Bold", Helvetica;
+
+  }
   .innerCard {
     position: relative;
     width: 100%;
@@ -260,7 +268,7 @@
 } 
    .backSide,
   .backSide::before {
-    background-image: linear-gradient(160deg, #504eb8 0%, #332f68 100%);
+    background-image: linear-gradient(160deg, #adacd6 0%, #504eb8 100%);
   }
   
   .backSide {

@@ -36,7 +36,9 @@ function servicesPage() {
 
 {/* ------------------my cards-------------------------------- */}
 
+
 <div className="servicesCage">
+{/* ---------------------design card---------------- */}
 <div class="designCard">
         <div class="innerCard">
             <div class="frontSide">
@@ -46,21 +48,44 @@ function servicesPage() {
                   for websites and applications.</p>
             </div>
             <div class="backSide">
-                <p class="title">BACK SIDE</p>
-                <p>
+                <p class="title">Technologies I use:</p>
+                <p> Adobe Pack<br></br>
+                      MarvelApp<br></br>
+                      Figma<br></br>
+                      Lucidchart<br></br>
+                      SmartDraw<br></br>
+                      Balsamiq
                 </p>
             </div>
         </div>
     </div>
 
+{/* -------------------FrontEnd ----------------------*/}
+<div className="frontEndCard">
+<div class="innerCard">
+            <div class="frontSide">
+                <p class="title">Designer</p>
+                <img className="designIcon" alt="designIcon" src="design-icon.png" width={150} height={150} />
+                <p>I craft visually appealing and user-friendly interfaces 
+                  for websites and applications.</p>
+            </div>
+            <div class="backSide">
+                <p class="title">Technologies I use:</p>
+                <p> Adobe Pack<br></br>
+                      MarvelApp<br></br>
+                      Figma<br></br>
+                      Lucidchart<br></br>
+                      SmartDraw<br></br>
+                      Balsamiq
+                </p>
+            </div>
+        </div>
 
+</div>
 
 
 
     </div>
-
-     
-
 {/*
     <div class="myCard">
         <div class="innerCard">
@@ -75,17 +100,8 @@ function servicesPage() {
         </div>
     </div> */}
   
-        </div>
-
-        </div>
-
-       
-
-      
-
-
-       
-     
+    </div>
+</div>  
   );
 }
 

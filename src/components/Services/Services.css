@@ -154,6 +154,49 @@
     text-shadow: 0px 4px #00000040;
     width: 131px;
   }
+
+  .myServices{
+    color: rgb(9, 12, 143);
+    text-shadow: 0px 4px 4px #00000040;
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    text-shadow: 0px 4px 4px #00000040;
+    margin-left:  650px;
+    margin-top: 50px;
+      
+  }
+
+ .DesignerCage{
+    background-color: #ced0db;
+    /* border-radius: 30%; */
+    height: 400px;
+    width: 300px;
+    margin-left:  50px;
+    margin-top: 80px;
+ }
+
+ .backCage{
+    background-color: #ced0db;
+    /* border-radius: 30%; */
+    height: 400px;
+    width: 300px;
+    margin-left:  50px;
+    margin-top: 80px;
+ }
+
+ .frontCage{
+    background-color: #ced0db;
+    /* border-radius: 30%; */
+    height: 400px;
+    width: 300px;
+    margin-left:  50px;
+    margin-top: 80px;
+ }
+
+
   
 
   

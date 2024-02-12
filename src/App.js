@@ -21,4 +21,4 @@ function App() {
   );
 }
 
-export default About;
+export default Services;

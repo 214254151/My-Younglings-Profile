@@ -7,7 +7,6 @@ function servicesPage() {
       <div className="mainFrame">
         <div className="nav-bar">
           <img className="logo" alt="logo" src="logo.png" />
-
           <div className="menu-cage">
             <div className="home-cage">
               <div className="text-wrapper">Home</div>
@@ -31,18 +30,34 @@ function servicesPage() {
           </div>
         </div>
 
-{/* -----------------------------------------box frames */}
-        <div className="servicesFrame0">
-      
-        </div>
 
-        <div className="ServicesFrame1">
+        <div className="myServices">My Services</div>
 
-        </div>
-{/* ------------------------------------------------------------------- */}          
+
+{/* ------------------my cards-------------------------------- */}
+        <div className="myCard">
+          <div className="innerCard">
+          <p class="title">I am a designer</p>
+                <p>I design visual appealing UI/UX</p>
+            </div>
+            <div class="backSide">
+                <p class="title">Technologies I use</p>
+                <p>Figma</p>
+            </div>
+
           </div>
-        </div>  
+        </div>
+
+        </div>
+
+       
+
+      
+
+
+       
+     
   );
-};
+}
 
 export default servicesPage;

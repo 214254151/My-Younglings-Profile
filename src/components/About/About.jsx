@@ -33,34 +33,11 @@ function aboutPage() {
           </div>
         </div>
 
-        {/* -----------------------------------------box frames */}
+      
         <div className="bodyFrame0"></div>
 
         <div className="bodyFrame1"></div>
         {/* ------------------------------------------------------------------- */}
-
-        <div className="Services-cage">
-          <div className="Services-heading">
-            <div className="text-hi">Hi!</div>
-
-            <div className="itsMe">it’s me</div>
-            <div className="myName">Abongile Tshopi</div>
-            <div className="and">
-              And I am a{" "}
-              <span className="Junior">Junior Software Developer</span>{" "}
-            </div>
-          </div>
-
-          {/* <div className="homepage-image">
-            <img
-              className="homePagePic"
-              alt="aboutPagePic"
-              src="ap.png"
-              height={"500"}
-              width={"258"}
-            />
-          </div> */}
-        </div>
       </div>
     </div>
   );

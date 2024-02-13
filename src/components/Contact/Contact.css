@@ -141,7 +141,7 @@
 
 .circle-icon{
     border-style: outset;
-    border-radius: 100%;
+    border-radius: 40%;
     background-color: transparent;
     width: 450px;
     height: 400px;

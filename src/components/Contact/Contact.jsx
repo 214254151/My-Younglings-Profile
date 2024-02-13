@@ -37,6 +37,17 @@ function template() {
 <div className="contactText">Let's get in <span>touch</span></div>
     
         <div className="contactFormBox">
+          <div className="">
+
+          </div>
+
+          <div className="">
+
+          </div>
+
+          <div className="">
+
+          </div>
           
         </div>
 

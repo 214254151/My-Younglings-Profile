@@ -141,9 +141,9 @@
 
 .circle-icon{
     border-style: outset;
-    border-radius: 35%;
+    border-radius: 100%;
     background-color: transparent;
-    width: 500px;
+    width: 450px;
     height: 400px;
     margin-left: 70px; 
     margin-top: 98px; 

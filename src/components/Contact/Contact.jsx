@@ -38,7 +38,6 @@ function template() {
     
         <div className="contactFormBox">
           <form>
-
               <div className="fullName-box">
                 <input type="text" placeholder="Full Name" id="fullName"></input>
               </div>
@@ -46,7 +45,7 @@ function template() {
               <div className="email-box">
                 <input type="text" placeholder="Your email" id="emailAddress"></input>
               </div>
-
+              
               <div className="message-box">
                 {/* <input type="text" placeholder="Your message" id="Your message"></input> */}
                 <textarea name="message" id="message" cols="21" rows="5" placeholder="Your Message"></textarea>
@@ -55,7 +54,6 @@ function template() {
               <div className="button-box">
                 <button type="submit">Submit</button>
               </div>
-
           </form>
           
         </div>

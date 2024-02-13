@@ -143,20 +143,18 @@
     border-style: outset;
     border-radius: 35%;
     background-color: transparent;
-    width: 200px;
-    height: 180px;
-    margin-left: 150px; 
+    width: 500px;
+    height: 400px;
+    margin-left: 70px; 
     margin-top: 98px; 
-    display:flex
 }
 .contactImage{
     justify-content: right;
     border-style: outset;
-    /* border-radius: 4%; */
     background-color: transparent;
-    width: 665px;
+    width: 624px;
     height: 580px;
-    margin-left: 750px;
+    margin-left:790px;
     margin-top: -541px;
     background-color: #ffffff;
 }

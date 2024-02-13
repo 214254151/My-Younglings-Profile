@@ -131,7 +131,8 @@
 
 .contactFormBox{
     background-color: #393DA5;
-    /* border-radius: 30%; */
+    border: outset;
+    border-color: rgb(255, 255, 255);
     height: 450px;
     width: 500px;
     margin-left:  140px;
@@ -150,12 +151,12 @@
 }
 .contactImage{
     justify-content: right;
-    border-style: outset;
+    /* border-style: outset; */
     background-color: transparent;
     width: 624px;
     height: 580px;
-    margin-left:790px;
-    margin-top: -541px;
+    margin-left:793px;
+    margin-top: -547px;
     background-color: #ffffff;
 }
 

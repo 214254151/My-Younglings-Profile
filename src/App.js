@@ -4,6 +4,7 @@ import "./App.css";
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 
 
@@ -22,4 +23,4 @@ function App() {
   );
 }
 
-export default Services;
+export default Contact;

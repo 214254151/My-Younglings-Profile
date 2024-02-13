@@ -45,7 +45,7 @@ function template() {
               <div className="email-box">
                 <input type="text" placeholder="Your email" id="emailAddress"></input>
               </div>
-              
+
               <div className="message-box">
                 {/* <input type="text" placeholder="Your message" id="Your message"></input> */}
                 <textarea name="message" id="message" cols="21" rows="5" placeholder="Your Message"></textarea>
@@ -59,7 +59,7 @@ function template() {
         </div>
 
         <div className="contactImage">
-        <img className="circle-icon" alt="circleIcon" src="circle-icons.png" />
+        <button className="submitButton" type="submit"><img src="circle-icons.png" /></button>
         </div>
 
     

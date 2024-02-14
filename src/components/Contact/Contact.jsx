@@ -59,11 +59,10 @@ function template() {
         </div>
 
         <div className="contactImage">
-        <button className="submitButton" type="submit"><img src="circle-icons.png" /></button>
+        <img className="circle-icons" src="circle-icons.png" />
         </div>
 
-    
-
+        
 
 
 

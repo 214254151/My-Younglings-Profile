@@ -140,13 +140,12 @@
     border-radius: 10%;
 }
 
-.circle-icon{
-    border-style: outset;
+.circle-icons{
     border-radius: 40%;
     background-color: transparent;
-    width: 450px;
+    width: 480px;
     height: 400px;
-    margin-left: 70px; 
+    margin-left: 75px; 
     margin-top: 98px; 
 }
 .contactImage{
@@ -160,8 +159,6 @@
     background-color: #ffffff;
 }
 
-
-/*------------------- foooorrmmm----------------- */
 .fullName-box{
   margin-left:150px;
   /* width: fit-content; */
@@ -169,8 +166,6 @@
   margin-top: 40px;
   color: #000000;
   background-color: #090c5c;
-
-  
 }
 
 .email-box{
@@ -178,9 +173,6 @@
   margin-top: 40px;
   color: #000000;
   background-color: #090c5c;
-  
-  
-
 }
 
 .message-box{
@@ -198,12 +190,7 @@
 
 }
 
-.submitButton{
-  
-  border-radius: 50%;
-  background-color: rgba(255, 255, 255, 0.308);
-  border-color: #ffffff;
- 
-}
+
   
   
+/*------------------- foooorrmmm----------------- */

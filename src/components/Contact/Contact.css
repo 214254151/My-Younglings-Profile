@@ -160,33 +160,33 @@
 }
 
 .fullName-box{
-  margin-left:150px;
-  /* width: fit-content; */
-  width: 50%;
+  margin-left:170px;
+  width: 80%;
+  height: 80px;
   margin-top: 40px;
-  color: #000000;
-  background-color: #090c5c;
 }
 
 .email-box{
-  margin-left:150px;
+  margin-left:170px;
   margin-top: 40px;
   color: #000000;
   background-color: #090c5c;
+  width: 0%;
 }
 
 .message-box{
-  margin-left:150px;
+  margin-left:170px;
   margin-top: 40px;
   color: #000000;
   background-color: #090c5c;
+  width: 0%;
 }
 
 .button-box{
-  margin-left:150px;
+  margin-left:170px;
   margin-top: 40px;
-  color: #000000;
-  background-color: #090c5c;
+  background-color: #040633;
+  width: 0%;
 
 }
 

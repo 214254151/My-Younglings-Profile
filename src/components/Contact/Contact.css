@@ -184,17 +184,22 @@
   margin-left:100px;
   border-radius: 10px;
   width: 60%;
-  height: 80px;
+  height: 100px;
   margin-top: 40px;
   background-color: #ffffff;
   font-size: 16px;
 }
 
-.button-box{
-  margin-left:170px;
+
+.button-box button{
+  border-top:outset;
+  border-left:outset;
+  margin-left:100px;
+  height: 30px;
+  width: 80px;
   margin-top: 40px;
-  background-color: #040633;
-  width: 0%;
+  background-color: #ACAFF5;
+  border-radius: 10px;
 
 }
 

@@ -159,27 +159,35 @@
     background-color: #ffffff;
 }
 
-.fullName-box{
+.fullName-box input{
+  margin-left:100px;
+  border-radius: 10px;
+  width: 60%;
+  height: 50px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.email-box input{
+  margin-left:100px;
+  border-radius: 10px;
+  width: 60%;
+  height: 50px;
+  margin-top: 40px;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+.message-box textarea{
   margin-left:170px;
-  width: 80%;
+  margin-left:100px;
+  border-radius: 10px;
+  width: 60%;
   height: 80px;
   margin-top: 40px;
-}
-
-.email-box{
-  margin-left:170px;
-  margin-top: 40px;
-  color: #000000;
-  background-color: #090c5c;
-  width: 0%;
-}
-
-.message-box{
-  margin-left:170px;
-  margin-top: 40px;
-  color: #000000;
-  background-color: #090c5c;
-  width: 0%;
+  background-color: #ffffff;
+  font-size: 16px;
 }
 
 .button-box{

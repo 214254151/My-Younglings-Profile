@@ -49,11 +49,13 @@ function projects() {
 
             <div className="bankAppBox">
                 <span></span>
+                
             </div>
 
 
             <div className="sneshAppBox">
             <span></span>
+            
             </div>
 
             <div className="financeAppBox">

@@ -41,7 +41,7 @@ function projects() {
           <img className="" src="" />
           {/* Your content here */}
 
-          <div className="contactText">
+          <div className="contactText" >
             <span>My </span>Projects
           </div>
 

@@ -122,7 +122,7 @@
     letter-spacing: 0;
     line-height: normal;
     text-shadow: 0px 4px 4px #00000040;
-    margin-left:  285px;
+    margin-left:  150px;
     margin-top: 50px;
      span{
         color: rgb(247, 0, 255);
@@ -141,7 +141,7 @@ justify-content: space-between;
   background-color: #393DA5;
   border: outset;
   border-color: rgb(255, 255, 255);
-  height: 450px;
+  height: 400px;
   width: 30%;
   margin:auto;
   margin-top: 10px;
@@ -152,7 +152,7 @@ justify-content: space-between;
 background-color: #393DA5;
 border: outset;
 border-color: rgb(255, 255, 255);
-height: 450px;
+height: 400px;
 width: 30%;
 margin:auto;
 border-radius: 10%;
@@ -162,7 +162,7 @@ border-radius: 10%;
 background-color: #393DA5;
 border: outset;
 border-color: rgb(255, 255, 255);
-height: 450px;
+height: 400px;
 width: 30%;
 margin: auto;
 border-radius: 10%;
@@ -186,6 +186,6 @@ border-radius: 10%;
 
 }
   
-/* .backgroundImage{
-    margin-bottom: 99%;
-} */
+.backgroundImage{
+    margin-bottom: 90%;
+} 

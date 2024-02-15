@@ -149,7 +149,32 @@ justify-content: space-between;
   background-image: url('../../../public/bank.jpg');
   background-size: cover;
   background-position-x: center;
+  opacity: 80%;
+  position: relative;
 }
+.bankAppBox::before {
+    top: 50%;
+    content: attr(data-info); 
+    position: absolute;
+    bottom: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    /* transform: translateX(-50%); */
+    margin-bottom: -47%;
+    height: 399px;
+    width: 428px;
+    background-color: rgba(185, 70, 70, 0.397); 
+    border: 1px solid #ffffff; 
+    border-radius: 40px;
+    opacity: 0; 
+    transition: opacity 0.5s ease-in-out; 
+    color: white;
+    
+  }
+  
+  .bankAppBox:hover::before {
+    opacity: 1; 
+  }
 
 .sneshAppBox{
 background-color: #393DA5;
@@ -159,10 +184,29 @@ height: 400px;
 width: 30%;
 margin:auto;
 border-radius: 10%;
-background-image: url('../../../public/bank.jpg');
+background-image: url('../../../public/bbakery.png');
 background-size: cover;
 background-position-x: center;
+opacity: 80%;
 }
+.sneshAppBox::before {
+    content: attr(data-info); 
+    position: absolute;
+    bottom: 50%; 
+    left: 50%; 
+    transform: translateX(-50%);
+    margin-bottom: -47%;
+    height: 399px;
+    width: 428px;
+    background-color: rgba(255, 0, 0, 0.397); 
+    border: 1px solid #ffffff; 
+    border-radius: 40px;
+    opacity: 0; 
+    transition: opacity 0.3s ease-in-out; 
+  }
+  .sneshAppBox:hover::before {
+    opacity: 1; 
+  }
 
 .financeAppBox{
 background-color: #393DA5;
@@ -172,12 +216,15 @@ height: 400px;
 width: 30%;
 margin: auto;
 border-radius: 10%;
-background-image: url('../../../public/bank.jpg');
+background-image: url('../../../public/finance.jpg');
 background-size: cover;
 background-position-x: center;
+opacity: 80%;
+}
 }
 
-}
+
+
 
 /* -----------buttonsssssss icons */
 
@@ -224,6 +271,17 @@ background-position-x: center;
     transform: scale(0.9);
   }
   
+  .bankName{
+    color: rgb(9, 12, 143);
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 35%;
+    margin-top: 100%;
+    text-shadow: 0px 4px 4px #00000040;
+  }
   
 
   .sneshAppBox{
@@ -239,6 +297,18 @@ background-position-x: center;
     transform: scale(0.9);
   }
 
+  .sneshName{
+    color: rgb(255, 255, 255);
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 35%;
+    margin-bottom: 100%;
+    text-shadow: 0px 4px 4px #00000040;
+  }
+
   .financeAppBox{
     width: 200px;
     height: 250px;
@@ -252,5 +322,16 @@ background-position-x: center;
     transform: scale(0.9);
   }
 
+  .financeName{
+    color: rgb(9, 12, 143);
+    font-family: "Nunito-Bold", Helvetica;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-left: 35%;
+    margin-top: 100%;
+    text-shadow: 0px 4px 4px #00000040;
+  }
   
  

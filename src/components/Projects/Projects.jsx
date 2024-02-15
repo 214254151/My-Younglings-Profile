@@ -29,45 +29,45 @@ function projects() {
             </div>
           </div>
         </div>
-{/* ------------------my Projects page-------------------------------- */}
-<div className="contactText"><span>My </span>Projects</div>
-    
-<div className="projectscontainer">
-
-        <div className="bankAppBox">
-        </div>
-
-
-        <div className="sneshAppBox">  
-        </div>
-
-
-        <div className="financeAppBox">
-        </div>
-
-
-        <div className="projectscontainer">
-        </div>
-        
-</div>
-
-
-
-
-
-
-{/*---------------- social media button icons----------------  */}
-        <div className="projectsImage">
+        <div
+          className="backgroundImage"
+          style={{
+            backgroundImage: `url('/3D-icon-Logo.jpg')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "80%",
+          }}
+        >
           <img className="" src="" />
+          {/* Your content here */}
+
+          <div className="contactText">
+            <span>My </span>Projects
+          </div>
+
+          <div className="projectscontainer">
+            <div className="bankAppBox"></div>
+
+            <div className="sneshAppBox"></div>
+
+            <div className="financeAppBox"></div>
+
+            <div className="projectscontainer"></div>
+          </div>
         </div>
+
+        {/* ------------------my Projects page-------------------------------- */}
+
+        {/*---------------- social media button icons----------------  */}
+        {/* <div className="projectsImage">
+          <img className="" src="" />
+        </div> */}
 
         {/* <button type="submit">Submit</button> */}
 
-
-
-  {/* closinf the main frames */}
-</div>  
-</div>
+        {/* closinf the main frames */}
+      </div>
+    </div>
   );
 }
 export default projects;

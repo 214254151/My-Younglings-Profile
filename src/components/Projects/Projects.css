@@ -189,3 +189,59 @@ border-radius: 10%;
 .backgroundImage{
     margin-bottom: 90%;
 } 
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------- */
+
+.bankAppBox {
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 25px 50px rgb(184, 47, 47);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .bankAppBox:hover {
+    transform: scale(0.9);
+  }
+  
+  
+
+  .sneshAppBox{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 25px 50px rgb(184, 47, 47);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .sneshAppBox:hover {
+    transform: scale(0.9);
+  }
+
+  .financeAppBox{
+    width: 200px;
+    height: 250px;
+    border-radius: 20px;
+    position: relative;
+    box-shadow: 0 25px 50px rgb(184, 47, 47);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  .financeAppBox:hover {
+    transform: scale(0.9);
+  }
+
+  
+ 

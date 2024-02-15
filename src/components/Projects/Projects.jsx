@@ -46,11 +46,19 @@ function projects() {
           </div>
 
           <div className="projectscontainer">
-            <div className="bankAppBox"></div>
 
-            <div className="sneshAppBox"></div>
+            <div className="bankAppBox">
+                <span></span>
+            </div>
 
-            <div className="financeAppBox"></div>
+
+            <div className="sneshAppBox">
+            <span></span>
+            </div>
+
+            <div className="financeAppBox">
+            <span></span>
+            </div>
 
             <div className="projectscontainer"></div>
           </div>

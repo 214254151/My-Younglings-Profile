@@ -33,11 +33,10 @@ function aboutPage() {
           </div>
         </div>
 
-      
         <div className="bodyFrame0"></div>
 
         <div className="bodyFrame1"></div>
-        {/* ------------------------------------------------------------------- */}
+
       </div>
     </div>
   );

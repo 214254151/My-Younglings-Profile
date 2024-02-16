@@ -154,7 +154,6 @@ justify-content: space-between;
 }
 .bankAppBox::before {
     top: 50%;
-    content: attr(data-info); 
     position: absolute;
     bottom: 50%; 
     left: 50%; 
@@ -169,7 +168,7 @@ justify-content: space-between;
     opacity: 0; 
     transition: opacity 0.5s ease-in-out; 
     color: white;
-    padding: 15px; 
+    padding: 2px; 
   }
   
   .bankAppBox:hover::before {
@@ -177,7 +176,7 @@ justify-content: space-between;
   }
 
 .sneshAppBox{
-background-color: #393DA5;
+background-color: #427ab9;
 border: outset;
 border-color: rgb(255, 255, 255);
 height: 400px;
@@ -187,10 +186,10 @@ border-radius: 10%;
 background-image: url('../../../public/bbakery.png');
 background-size: cover;
 background-position-x: center;
-opacity: 80%;
+opacity: 100%;
 }
 .sneshAppBox::before {
-    content: attr(data-info); 
+    /* content: attr(data-info);  */
     position: absolute;
     bottom: 50%; 
     left: 50%; 
@@ -223,13 +222,98 @@ opacity: 80%;
 }
 }
 
+.bankAppBox {
+  position: relative;
+}
+
+.bankAppBox::after {
+  content: attr(data-info); 
+  position: absolute;
+  top: 38%; 
+  left: 0;
+  background-color: #ff6c6c93; 
+  border: 1px solid #ffffff; 
+  border-radius: 38px; 
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 385px; 
+  z-index: 1; 
+  display: none; 
+  padding: 19px; 
+  background-color: #ff4d4d2a; 
+  height: 210px;
+  color: #ffffff;
+  font-size: 18px;
+  
+}
+.bankAppBox:hover::after {
+  display: block; 
+}
+
+
+
+
+.sneshAppBox {
+  position: relative;
+}
+.sneshAppBox::after {
+  content: attr(data-info); 
+  position: absolute;
+  top: 38%; 
+  left: 0;
+  background-color: #ff6c6c93; 
+  border: 1px solid #ffffff; 
+  border-radius: 38px; 
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 385px; 
+  z-index: 1; 
+  display: none; 
+  padding: 19px; 
+  background-color: #ff4d4d2a; 
+  height: 210px;
+  color: #ffffff;
+  font-size: 18px;
+  
+}
+.sneshAppBox:hover::after {
+  display: block; 
+}
+
+
+.financeAppBox {
+  position: relative;
+}
+.financeAppBox::after {
+  content: attr(data-info); 
+  position: absolute;
+  top: 38%; 
+  left: 0;
+  background-color: #ff6c6c93; 
+  border: 1px solid #ffffff; 
+  border-radius: 38px; 
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  width: 385px; 
+  z-index: 1; 
+  display: none; 
+  padding: 19px; 
+  /* background-color: #ff4d4d2a;  */
+  height: 210px;
+  color: #ffffff;
+  font-size: 18px;
+
+}
+.financeAppBox:hover::after {
+  display: block; 
+}
+
+
+
 
 
 
 /* -----------buttonsssssss icons */
-
-
-
 .button-box button{
   border-top:outset;
   border-left:outset;

@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-
 import "./App.css";
+
 import Home from "./components/Home/Home";
 import About from "./components/About/About";
 import Services from "./components/Services/Services";
@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default About;
+export default Projects;

@@ -64,9 +64,7 @@ function aboutPage() {
               <FontAwesomeIcon icon={faFigma} color="#ff7262"/>
             </div>
 
-            <div className="face6">
-              <FontAwesomeIcon icon={faGit} color="#000000"/>
-            </div>
+          
 
       
           </div>

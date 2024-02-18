@@ -1,6 +1,8 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./About.css";
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { faAngular, faCss3, faFigma, faGit, faHtml5, faJava, faReact } from "@fortawesome/free-brands-svg-icons";
 
 
 function aboutPage() {
@@ -33,10 +35,48 @@ function aboutPage() {
           </div>
         </div>
 
-        <div className="bodyFrame0"></div>
+        {/* <div className="bodyFrame0"></div> */}
 
-        <div className="bodyFrame1"></div>
 
+        <div className="stage-cube-cont">
+          <div className="cube-spinner">
+            <div className="face0">
+              <FontAwesomeIcon icon={faAngular} color="#DD0031"/>
+            </div>
+
+            <div className="face1">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
+            </div>
+
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06519"/>
+            </div>
+
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
+            </div>
+
+            <div className="face4">
+              <FontAwesomeIcon icon={faJava} color="#EFD81D"/>
+            </div>
+
+            <div className="face5">
+              <FontAwesomeIcon icon={faFigma} color="#ff7262"/>
+            </div>
+
+            <div className="face6">
+              <FontAwesomeIcon icon={faGit} color="#000000"/>
+            </div>
+
+      
+          </div>
+        </div>
+
+
+
+
+
+{/* tags for closing the entire app */}
       </div>
     </div>
   );

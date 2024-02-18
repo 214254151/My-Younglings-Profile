@@ -25,4 +25,4 @@ function App() {
   );
 }
 
-export default Projects;
+export default About;

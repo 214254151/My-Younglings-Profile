@@ -17,7 +17,7 @@
     /* border-top-left-radius: 5dvb; */
     /* font-family: "Nunito-Bold", Helvetica; */
     /* background-color: #f11b1b; */
-    background: linear-gradient(to top right, rgb(9, 166, 194) 60%, rgb(228, 63, 206) 60%)
+    /* background: linear-gradient(to top right, rgb(9, 166, 194) 60%, rgb(228, 63, 206) 60%) */
   }
   
   .mbodyFrame1 {
@@ -121,11 +121,11 @@
     column-gap: 2rem;
   }
   
-  .homepage-image {
+  /* .homepage-image {
     margin-top: -5.2rem;
     margin-left: -80px;
     opacity: 10%;
-  }
+  } */
   
   .waves{
     margin-top: -4rem;
@@ -194,6 +194,11 @@
   }
   
   
+  .backgroundImage0{
+    margin-bottom: 90%;
+    opacity: 100%;
+}
+
 .stage-cube-cont{
 width:  50%;
 height: 100%;
@@ -208,7 +213,7 @@ overflow: hidden;
 
 
 .cube-spinner{
-  animation-name:spincube;
+  animation-name:spinCube;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
   animation-duration: 12s;
@@ -220,13 +225,13 @@ overflow: hidden;
     position: absolute;
     width: 200px;
     height: 200px;
-    border: 1px solid #ccc;
-    background: rgb(63, 66, 228);
+    border: 1px solid #fff5f5;
+    background: rgb(255, 255, 255, 0.4);
     font-size: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 0 2px 0px #d11c1c6b;
+    box-shadow: 0 0 10px 0px lightyellow;
   }
 
   .face0{
@@ -242,16 +247,16 @@ overflow: hidden;
     transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
   }
   .face4{
-    transform: roatetY(-90deg) rotateZ(90deg)  translateZ(100px)
+    transform: rotatetY(-90deg) rotateZ(-90deg) translateZ(100px);
   }
   .face5{
-    transform: roate(-90deg) translateZ(100px);
+    transform: rotateX(-90deg) translateZ(100px);
   }
 }
 
 
-@keyframes spincube{
-  from,
+@keyframes spinCube{
+  
   to{
     transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
   }
@@ -268,6 +273,6 @@ overflow: hidden;
     transform: rotateY(-270deg) rotateZ(90deg);
   }
   83%{
-    transform: rotateX(-90deg);
+    transform: rotateX(90deg);
   }
 }

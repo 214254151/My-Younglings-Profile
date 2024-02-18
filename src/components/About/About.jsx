@@ -2,7 +2,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./About.css";
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import { faAngular, faCss3, faFigma, faGit, faHtml5, faJava, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAngular, faCss3, faFigma, faGit, faHtml5, faJava, faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
 
 
 function aboutPage() {
@@ -35,8 +35,23 @@ function aboutPage() {
           </div>
         </div>
 
-        {/* <div className="bodyFrame0"></div> */}
 
+        <div
+          className="backgroundImage0"
+          style={{
+            backgroundImage: `url('/bout.jpg')`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            height: "80%", width: "100%",
+          }}
+        />
+
+
+        <div className="bodyFrame0">
+
+          <div className="welcomeText">Welcome To My Digital World</div>
+
+        
 
         <div className="stage-cube-cont">
           <div className="cube-spinner">
@@ -57,20 +72,20 @@ function aboutPage() {
             </div>
 
             <div className="face4">
-              <FontAwesomeIcon icon={faJava} color="#EFD81D"/>
+              <FontAwesomeIcon icon={faGit} color="#EFD81D"/>
             </div>
 
             <div className="face5">
-              <FontAwesomeIcon icon={faFigma} color="#ff7262"/>
+              <FontAwesomeIcon icon={faJsSquare} color="#ff7262"/>
             </div>
 
-          
+            
 
+  
       
           </div>
         </div>
-
-
+      </div>
 
 
 

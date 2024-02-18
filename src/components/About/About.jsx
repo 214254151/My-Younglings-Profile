@@ -48,7 +48,7 @@ function aboutPage() {
           
         <div className="welcomeText">Welcome To My <span className="digitalSpace"><i>Digital Space</i></span>
           
-          <p>A passionate software developer individual who is
+          <p>I passionate software developer individual who is
               dedicated to improving skills through hands-on
               learning and development work.<br/>I am flexible and
               can adapt easily when required to work on

@@ -3,15 +3,15 @@ import "./Contact.css";
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 
-function template() {
+function Contact() {
 
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm('service_buqlwfl', '3gxO389M130AiZ9rs', form.current, {
+        publicKey: '3gxO389M130AiZ9rs',
       })
       .then(
         () => {
@@ -93,4 +93,4 @@ function template() {
 </div>
   );
 }
-export default template;
+export default Contact;

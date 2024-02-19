@@ -48,14 +48,14 @@ function aboutPage() {
           
         <div className="welcomeText">Welcome To My <span className="digitalSpace"><i>Digital Space</i></span>
           
-          <p>I passionate software developer individual who is
+          <p>I'm a passionate software developer individual who is
               dedicated to improving skills through hands-on
               learning and development work.<br/>I am flexible and
               can adapt easily when required to work on
               multiple projects or tasks. <br/>I always set high
               standards for myself.</p>
 
-              <h4>My interests and hobbies</h4>
+              <h4>My interests <span>and hobbies</span></h4>
 
               <p>
               I am interested in learning about how patterns works,<br/> 

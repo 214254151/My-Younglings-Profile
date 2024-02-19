@@ -193,7 +193,7 @@
     width: 520px;;
     
     span{
-      color: #e708b7;
+      color: #d495e3;
     }
     p{
       font-size: 16px;
@@ -201,6 +201,16 @@
       color: #ffffff;
 
     }
+
+    h4{
+      color: #d495e3;
+      font-size: 25px;
+
+      span{
+        color: #e78a08;
+      }
+    }
+
   }
 
 
@@ -208,6 +218,7 @@
     display: flex;
     flex-direction: row;
     padding-top: -80px;
+   
   }
 
   

@@ -1,29 +1,7 @@
 import "./Contact.css";
-// import React from "react";
-import React, { useRef } from 'react';
-import emailjs from '@emailjs/browser';
+import React from "react";
 
-function Contact() {
-
-  const form = useRef();
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .sendForm('service_buqlwfl', '3gxO389M130AiZ9rs', form.current, {
-        publicKey: '3gxO389M130AiZ9rs',
-      })
-      .then(
-        () => {
-          console.log('SUCCESS!');
-        },
-        (error) => {
-          console.log('FAILED...', error.text);
-        },
-      );
-  };
-
-
+function template() {
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
@@ -59,18 +37,17 @@ function Contact() {
 <div className="contactText">Let's get in <span>touch</span></div>
     
         <div className="contactFormBox">
-
-          <form ref={form} onSubmit={sendEmail}>
+          <form >
               <div className="fullName-box">
-                <input type="text" placeholder="Full Name" id="fullName"></input>
+                <input type="text" placeholder="Full Name" id="fullName" required></input>
               </div>
 
               <div className="email-box">
-                <input type="text" placeholder="Your email" id="emailAddress"></input>
+                <input type="text" placeholder="Your email" id="emailAddress" required></input>
               </div>
 
               <div className="message-box">
-                <textarea name="message" id="message" cols="21" rows="5" placeholder="Your Message"></textarea>
+                <textarea name="message" id="message" cols="21" rows="5" placeholder="Your Message" required></textarea>
               </div>
 
               <div className="button-box">
@@ -93,4 +70,4 @@ function Contact() {
 </div>
   );
 }
-export default Contact;
+export default template;

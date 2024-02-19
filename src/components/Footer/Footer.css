@@ -2,12 +2,18 @@
     display: flex;
     justify-content: center;
     /* margin-bottom: 800px; */
-    background-color: #454f6e27;
+    background-color: #4b62a759;
     padding: 10px;
     width: 98.4%;
     height: 84px;
     margin-top: -7.6%;
     border-bottom-right-radius: 5dvb;
     border-bottom-left-radius: 5dvb;
-    /* position: fixed; */
+   position: sticky;
+
+   h1{
+    font-size: medium;
+    position: center;
+    padding: 25px;
   }
+}

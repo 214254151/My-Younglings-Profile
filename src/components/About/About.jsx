@@ -3,7 +3,7 @@ import "./About.css";
 import React from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { faAngular, faCss3, faFigma, faGit, faHtml5, faJava, faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
-
+import NavBar from "../NavBar/NavBar";
 
 function aboutPage() {
   return (

@@ -1,7 +1,29 @@
 import "./Contact.css";
-import React from "react";
+// import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 function template() {
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
+        publicKey: 'YOUR_PUBLIC_KEY',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+  };
+
+
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
@@ -37,7 +59,8 @@ function template() {
 <div className="contactText">Let's get in <span>touch</span></div>
     
         <div className="contactFormBox">
-          <form >
+
+          <form ref={form} onSubmit={sendEmail}>
               <div className="fullName-box">
                 <input type="text" placeholder="Full Name" id="fullName"></input>
               </div>

@@ -4,6 +4,21 @@
     height: auto;
     
   }
+
+  .nav-bar{
+    
+      display: flex;
+      justify-content: right;
+      /* margin-bottom: 800px; */
+      background-color: #ffffff;
+      padding: auto;
+      width: 100%;
+      height: 80px;
+      border-top-right-radius: 5dvb;
+      border-top-left-radius: 5dvb;
+      /* position: fixed; */
+
+  }
   
   .mainFrame {
     border-left-style: outset;
@@ -15,29 +30,15 @@
     background-color: #8287ff82;
     border-bottom-right-radius: 5dvb;
     border-bottom-left-radius: 5dvb;
-    border-top-right-radius: 5dvb;
-    border-top-left-radius: 5dvb;
-  
-    
-  
+    /* border-top-right-radius: 5dvb;
+    border-top-left-radius: 5dvb; */
     font-family: "Nunito-Bold", Helvetica;
     /* padding-top: 0.5vw; */
     /* padding-left: 0.5vw;
     padding-right: 0.5vw;  */
   }
   
-  .nav-bar {
-    display: flex;
-    justify-content: right;
-    /* margin-bottom: 800px; */
-    background-color: #ffffff;
-    padding: auto;
-    width: 100%;
-    height: 80px;
-    border-top-right-radius: 5dvb;
-    border-top-left-radius: 5dvb;
-    /* position: fixed; */
-  }
+ 
   
   .logo {
     width: 60px;

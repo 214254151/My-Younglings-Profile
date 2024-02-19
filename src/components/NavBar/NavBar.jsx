@@ -1,7 +1,7 @@
 import "./NavBar.css";
 import React from "react";
 
-function template() {
+function navBar() {
   return (
     <div className="nav-bar">
       <h1>NavBar</h1>
@@ -9,4 +9,4 @@ function template() {
   );
 };
 
-export default template;
+export default navBar;

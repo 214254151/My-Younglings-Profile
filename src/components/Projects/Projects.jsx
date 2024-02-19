@@ -47,6 +47,9 @@ function projects() {
 
           <div className="projectscontainer">
 
+            
+            
+
             <div className="bankAppBox" data-info="Empower your financial journey with our mobile banking app. 
                                                   Seamlessly manage your accounts, transfer funds effortlessly, 
                                                   and stay in control of your finances on the go">
@@ -66,7 +69,7 @@ function projects() {
                                                       customizable investment projections, 
                                                       loan amortization schedules, and real-time currency conversion.">
               <span></span>
-              <div className="financeName">FinanceApp</div>
+              <div className="financeName" >FinanceApp</div>
             </div>
 
             

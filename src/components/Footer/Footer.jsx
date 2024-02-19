@@ -1,4 +1,4 @@
-import "./footer.css";
+import "./Footer.css";
 import React from "react";
 
 function template() {

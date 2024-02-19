@@ -1,0 +1,13 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 800px; */
+    background-color: #b7c4f3;
+    padding: 10px;
+    width: 98.4%;
+    height: 84px;
+    margin-top: -7.6%;
+    border-bottom-right-radius: 5dvb;
+    border-bottom-left-radius: 5dvb;
+    /* position: fixed; */
+  }

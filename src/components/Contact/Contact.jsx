@@ -1,7 +1,27 @@
 import "./Contact.css";
-import React from "react";
+// import React from "react";
+import emailjs from 'emailjs-com';
+import React, { useRef} from 'react';
 
 function template() {
+
+    function sendEmail(e){
+      e.preventDefault();
+
+    
+      emailjs.sendForm('service_hbk7euh', 'template_a9vmwra', e.target, '6NiPt78fOH83-6DKU' )      
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
+      e.target.reset();
+    }
+  
+
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
@@ -37,17 +57,17 @@ function template() {
 <div className="contactText">Let's get in <span>touch</span></div>
     
         <div className="contactFormBox">
-          <form >
+          <form onSubmit={sendEmail}>
               <div className="fullName-box">
-                <input type="text" placeholder="Full Name" id="fullName"></input>
+                <input type="text" placeholder="Full Name" name="fullName"></input>
               </div>
 
               <div className="email-box">
-                <input type="text" placeholder="Your email" id="emailAddress"></input>
+                <input type="text" placeholder="Your email" name="emailAddress"></input>
               </div>
 
               <div className="message-box">
-                <textarea name="message" id="message" cols="21" rows="5" placeholder="Your Message"></textarea>
+                <textarea name="message" cols="21" rows="5" placeholder="Your Message"></textarea>
               </div>
 
               <div className="button-box">
@@ -71,3 +91,15 @@ function template() {
   );
 }
 export default template;
+
+
+
+
+
+
+
+
+
+
+
+

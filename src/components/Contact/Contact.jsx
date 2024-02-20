@@ -6,73 +6,7 @@ import React, { useRef, useState } from "react";
 function template() {
 
 // --------------------------------------------------------------
-  const [formData, setFormData] = useState({
-    fullName: '',
-    emailAddress: '',
-    message: ''
-  });
-
-  const [errors, setErrors] = useState({
-    fullName: '',
-    emailAddress: '',
-    message: ''
-  });
-
-  const handleChange = (e) =>{
-    const {name, value} = e.target;
-    setFormData({...formData, [name]: value});
-  };
-
-  const handleSubmit = (e) =>{
-    e.preventDefault();
-    if(validateForm()){
-      sendEmail();
-    }
-  };
-
-  const validateForm = () =>{
-    let valid = true;
-    const newErrors = {...errors};
-    
-    //Validating Full name
-    if(!formData.fullName.trim()){
-      newErrors.fullName = 'Full name is requred';
-      valid = false; 
-    }
-    else if(!/^[a-zA-Z ]+$/.test(formData.fullName.trim())){
-      newErrors.fullName = 'Please  enter a valid full name';
-      valid = false;
-    }
-    else{
-      newErrors.fullName='';
-    }
-
-    //Validating email address
-    if(!formData.emailAddress.trim()){
-      newErrors.emailAddress = 'Email Address is require';
-      valid = false;
-    }
-    else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.emailAddress.trim())){
-      newErrors.emailAddress = 'Please enter a valid Email Address';
-      valid = false;
-    }
-    else{
-      newErrors.emailAddress = '';
-    }
-
-    //Validating the message
-    if(!formData.message.trim()){
-      newErrors.message = 'Message is required';
-      valid = false;
-    }
-    else{
-      newErrors.message = '';
-    }
-    setErrors(newErrors);
-    return valid;
-  };
-
-  
+ 
 
 
 // ---------------------------------------------------------------
@@ -132,16 +66,13 @@ function template() {
         </div>
 
         <div className="contactFormBox">
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={sendEmail}>
             <div className="fullName-box">
               <input
                 type="text"
                 placeholder="Full Name"
                 name="fullName"
-                value={formData.fullName}
-                onChange={handleChange}
               ></input>
-              {errors.fullName && <div className="error">{errors.fullName}</div>}
             </div>
 
             <div className="email-box">
@@ -149,10 +80,7 @@ function template() {
                 type="text"
                 placeholder="Your email"
                 name="emailAddress"
-                value={formData.emailAddress}
-                onChange={handleChange}
               ></input>
-              {errors.emailAddress && <div className="error">{errors.emailAddress}</div>}
             </div>
 
             <div className="message-box">
@@ -161,10 +89,7 @@ function template() {
                 cols="21"
                 rows="5"
                 placeholder="Your Message"
-                value={formData.message}
-                onChange={handleChange}
               ></textarea>
-              {errors.message && <div className="error">{errors.message}</div>}
             </div>
 
             <div className="button-box">

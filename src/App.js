@@ -9,7 +9,7 @@ import Contact from "./components/Contact/Contact";
 import Projects from "./components/Projects/Projects";
 import NavBar from "./components/NavBar/NavBar";
 import  Footer from "./components/Footer/Footer";
-import projects from "./components/Projects/Projects";
+
 
 
 function App() {

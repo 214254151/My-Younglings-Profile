@@ -3,7 +3,7 @@ import "./Contact.css";
 import emailjs from "emailjs-com";
 import React, { useRef, useState } from "react";
 
-function template() {
+const Contact = () => {
 
 // --------------------------------------------------------------
  
@@ -107,4 +107,4 @@ function template() {
     </div>
   );
 }
-export default template;
+export default Contact;

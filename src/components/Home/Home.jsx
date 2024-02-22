@@ -2,7 +2,7 @@ import "./Home.css";
 import React from "react";
 
 
-function homePage() {
+function Home() {
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
@@ -63,4 +63,4 @@ function homePage() {
   );
 }
 
-export default homePage;
+export default Home;

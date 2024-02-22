@@ -2,58 +2,20 @@ import "./NavBar.css";
 import React from "react";
 
 
-function navBar() {
+const NavBar = () => {
+
   return (
-     <div className="nav-bar">
-          <img className="logo" alt="logo" src="logo.png" />
-          <div className="menu-cage">
-            <div className="home-cage">
-              <div className="text-wrapper">Home</div>
-            </div>
-
-            <div className="about-cage">
-              <div className="text-wrapper">About</div>
-            </div>
-
-            <div className="services-cage">
-              <div className="text-wrapper">Services</div>
-            </div>
-
-            <div className="projects-cage">
-              <div className="text-wrapper">Projects</div>
-            </div>
-
-            <div className="contact-cage">
-              <div className="text-wrapper">Contact</div>
-            </div>
-          </div>
-        </div>
+     <nav className="nav-bar">
+      <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about">About</a></li>
+              <li><a href="/services">Services</a></li>
+              <li><a href="/projects">Projects</a></li>
+              <li><a href="/contact">Contact</a></li>
+            </ul>
+        </nav>
   );
 };
 
-export default navBar;
+export default NavBar;
 
-
-
-
-
-
-// const App = () => {
-//   return (
-//     <BrowserRouter>
-//       <Sidebar>
-//         <Routes>
-//           <Route path="/" element={<Home />} />
-          
-//           <Route path="/about" element={<About />} />
-//           <Route path="/comment" element={<Comment />} />
-//           <Route path="/analytics" element={<Analytics />} />
-//           <Route path="/product" element={<Product />} />
-         
-//         </Routes>
-//       </Sidebar>
-//     </BrowserRouter>
-//   );
-// };
-
-// export default App;

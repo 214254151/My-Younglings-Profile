@@ -2,12 +2,14 @@ import "./Contact.css";
 // import React from "react";
 import emailjs from "emailjs-com";
 import React, { useRef, useState } from "react";
+// import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
+  
 
 // --------------------------------------------------------------
  
-
+//6LeCt3spAAAAAIliDLIX6EtFXb4R3tQoBrXuD5ni
 
 // ---------------------------------------------------------------
 
@@ -35,30 +37,7 @@ const Contact = () => {
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
-        <div className="nav-bar">
-          <img className="logo" alt="logo" src="logo.png" />
-          <div className="menu-cage">
-            <div className="home-cage">
-              <div className="text-wrapper">Home</div>
-            </div>
-
-            <div className="about-cage">
-              <div className="text-wrapper">About</div>
-            </div>
-
-            <div className="services-cage">
-              <div className="text-wrapper">Services</div>
-            </div>
-
-            <div className="projects-cage">
-              <div className="text-wrapper">Projects</div>
-            </div>
-
-            <div className="contact-cage">
-              <div className="text-wrapper">Contact</div>
-            </div>
-          </div>
-        </div>
+       
 
         {/* ------------------Contact page-------------------------------- */}
         <div className="contactText">

@@ -1,12 +1,11 @@
+import React, { useState } from "react";
 import "./Contact.css";
 // import React from "react";
 import emailjs from "emailjs-com";
-import React, { useRef, useState } from "react";
 
 const Contact = () => {
 
 // --------------------------------------------------------------
- 
 
 
 // ---------------------------------------------------------------
@@ -71,7 +70,8 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Full Name"
-                name="fullName"
+                name="fullName" 
+                
               ></input>
             </div>
 
@@ -80,6 +80,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Your email"
                 name="emailAddress"
+               
               ></input>
             </div>
 
@@ -89,6 +90,7 @@ const Contact = () => {
                 cols="21"
                 rows="5"
                 placeholder="Your Message"
+                
               ></textarea>
             </div>
 

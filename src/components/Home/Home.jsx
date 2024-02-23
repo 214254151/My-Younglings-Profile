@@ -15,7 +15,6 @@ function Home() {
         </div>
 
        
-
         <div className="homepage-content">
           <div className="homepage-roles">
             <div className="text-hi">Hi!</div>

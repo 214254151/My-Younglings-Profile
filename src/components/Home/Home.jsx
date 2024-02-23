@@ -42,6 +42,8 @@ function Home() {
             </p>
           </div>
 
+          
+
           <div className="homepage-image">
             <img
               className="homePagePic"
@@ -52,6 +54,16 @@ function Home() {
             />
           </div>
         </div>
+
+        <div className="cv-button-box">
+          <a href="/ABONGILE TSHOPI'S RESUME.pdf"></a>
+              <button type="cv-button" >Donwload CV</button>
+            </div>
+
+            {/* <div className="cv-button-box">
+          <a href="/ABONGILE TSHOPI'S RESUME.pdf"></a>
+              <button type="linkedinBtn" ></button>
+            </div> */}
 
         <div className="waves-cage">
           <img className="waves" alt="wavesPic" src="waves.png" />

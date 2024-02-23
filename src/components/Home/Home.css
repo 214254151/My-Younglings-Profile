@@ -4,8 +4,6 @@
     height: auto;
   }
 
-  
-  
   .mainFrame {
     border-left-style: outset;
     border-style: outset;
@@ -31,9 +29,9 @@
     padding: 10px;
   }
   
-  /* ----------------------------------------- navigation bar */
+
   
-  
+
   @media screen and (max-width: 768px) {
     .nav-bar {
       justify-content: center; 
@@ -71,6 +69,14 @@
     margin-left: -80px;
     opacity: 75%;
   }
+
+  .cv-button-box{
+    padding-left: 40%;
+    
+    
+  }
+
+  
   
   .waves{
     margin-top: -3.7rem;

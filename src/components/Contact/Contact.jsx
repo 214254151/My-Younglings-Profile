@@ -4,6 +4,7 @@ import React, { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
+  
   const [captchaValue, setCaptchaValue] = useState("");
 
   function onChange(value) {

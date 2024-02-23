@@ -1,11 +1,16 @@
+import React, { useState } from "react";
 import "./Contact.css";
 import emailjs from "emailjs-com";
+
 import React, { useRef, useState } from "react";
 import ReCAPTCHA from "react-google-recaptcha";
+
+
 
 const Contact = () => {
   
   const [captchaValue, setCaptchaValue] = useState("");
+
 
   function onChange(value) {
     setCaptchaValue(value);
@@ -51,7 +56,8 @@ const Contact = () => {
               <input
                 type="text"
                 placeholder="Full Name"
-                name="fullName"
+                name="fullName" 
+                
               ></input>
             </div>
 
@@ -60,6 +66,7 @@ const Contact = () => {
                 type="text"
                 placeholder="Your email"
                 name="emailAddress"
+               
               ></input>
             </div>
 
@@ -69,6 +76,7 @@ const Contact = () => {
                 cols="21"
                 rows="5"
                 placeholder="Your Message"
+                
               ></textarea>
             </div>
 

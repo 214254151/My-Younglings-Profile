@@ -5,7 +5,7 @@ function projects() {
   return (
     <div className="mainAppFrame">
       <div className="mainFrame">
-        <div className="nav-bar">
+        {/* <div className="nav-bar">
           <img className="logo" alt="logo" src="logo.png" />
           <div className="menu-cage">
             <div className="home-cage">
@@ -28,7 +28,7 @@ function projects() {
               <div className="text-wrapper">Contact</div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           className="backgroundImage"
           style={{

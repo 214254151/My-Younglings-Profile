@@ -1,5 +1,5 @@
 *.mainAppFrame {
-    background-color: #004d7c82;
+    background-color: #e6f6ff82;
     width: 100%;
     height: auto;
   }
@@ -9,7 +9,7 @@
   .mainFrame {
     border-left-style: outset;
     border-style: outset;
-    height: 100vh;
+    height: 90.1vh;
     background-color: #8287ff82;
     border-bottom-right-radius: 5dvb;
     border-bottom-left-radius: 5dvb;
@@ -73,7 +73,7 @@
   }
   
   .waves{
-    margin-top: -4rem;
+    margin-top: -3.7rem;
     height: 200px;
     opacity: 75%;
     width: 100%;

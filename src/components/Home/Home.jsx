@@ -32,7 +32,6 @@ function Home() {
               And I am a{" "}
               <span className="Junior">Junior Software Developer</span>{" "}
             </div>
-            {/* <div className="Junior">Junior Software Developer</div> */}
 
             <p className="enthusiastic-junior">
               <i>

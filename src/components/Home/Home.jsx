@@ -27,10 +27,10 @@ function Home() {
             <br></br>
 
             <div className="itsMe">it’s me</div>
-            <div className="myName">Abongile Tshopi</div>
+            <div className="myName">Abongile <span>Tshopi</span></div>
             <div className="and">
               And I am a{" "}
-              <span className="Junior">Junior Software Developer</span>{" "}
+              <span className="Junior">Junior <span>Software</span> Developer</span>{" "}
             </div>
 
             <p className="enthusiastic-junior">

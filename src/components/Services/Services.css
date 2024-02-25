@@ -81,6 +81,8 @@
     margin-top: -30px;
     background-color: rgba(111, 0, 255, 0.267);
   }
+
+}
   
   .text-wrapper{
     color: rgb(33, 35, 173);
@@ -555,4 +557,3 @@
     display: none;
   }
 
-}

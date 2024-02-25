@@ -1,11 +1,40 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./NavBar.css"; // Assuming you have a CSS file named NavBar.css for styling
 
 class NavBar extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMenuOpen: false
+    };
+  }
+
+  toggleMenu = () => {
+    this.setState(prevState => ({
+      isMenuOpen: !prevState.isMenuOpen
+    }));
+
+    // Hide all menu items when menu icon is clicked
+    const menuItems = ["about-cage", "home-cage", "services-cage", "projects-cage", "contact-cage"];
+    menuItems.forEach(item => {
+      const element = document.getElementsByClassName(item)[0];
+      if (element) {
+        element.classList.toggle("hide");
+      }
+    });
+  };
+
   render() {
     return (
       <div className="nav-bar">
         <img className="logo" alt="logo" src="logo.png" />
+
+        <button className="menu__icon" onClick={this.toggleMenu}>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
         <div className="menu-cage">
           <Link to="/" className="home-cage" style={{ textDecoration: "none" }}>

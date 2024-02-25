@@ -3,5 +3,29 @@
     
 }
 
+@media screen and (max-width: 414px) {
+    .nav-bar {
+      justify-content: center; 
+      height: auto;
+      flex-wrap: wrap;
+    }
+}
 
 
+/* <reset-style> ============================ */
+button {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    font-family: inherit;
+  }
+  /* <main-style> ============================ */
+  
+
+
+  .contact-cage{
+    display: none;
+  }
+  

@@ -8,23 +8,23 @@ class NavBar extends React.Component {
         <img className="logo" alt="logo" src="logo.png" />
 
         <div className="menu-cage">
-          <Link to="/" className="home-cage">
+          <Link to="/" className="home-cage" style={{ textDecoration: "none" }}>
             <div className="text-wrapper">Home</div>
           </Link>
 
-          <Link to="/about" className="about-cage">
+          <Link to="/about" className="about-cage" style={{ textDecoration: "none" }}>
             <div className="text-wrapper">About</div>
           </Link>
 
-          <Link to="/services" className="services-cage">
+          <Link to="/services" className="services-cage" style={{ textDecoration: "none" }}>
             <div className="text-wrapper">Services</div>
           </Link>
 
-          <Link to="/projects" className="projects-cage">
+          <Link to="/projects" className="projects-cage" style={{ textDecoration: "none" }}>
             <div className="text-wrapper">Projects</div>
           </Link>
 
-          <Link to="/contact" className="contact-cage">
+          <Link to="/contact" className="contact-cage" style={{ textDecoration: "none" }}>
             <div className="text-wrapper">Contact</div>
           </Link>
         </div>

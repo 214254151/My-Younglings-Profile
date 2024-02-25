@@ -39,13 +39,47 @@
     .waves{
       display: none;
     }
-  }
+
+    .homepage-roles{
+      margin-left: -26%;
+      width: 100%;
+      margin-top: -30%;
+    }
+    .homepage-image{
+      margin-left: -26%;
+      margin-top: 4%;
+
+      
+    }
+    .homepage-content {
+      flex-direction: column;
+    }
+
+    .myName span{
+      flex-direction: column;
+      display: grid;
+    }
+
+    .Junior{
+        margin-left:-18px;
+        display: grid;
+    }
+
+    .enthusiastic-junior{
+      display: none;
+    }
+    .mainFrame{
+      height: 1000px;
+    }
    
-  .homepage-content {
-    display: flex;
-    margin-top: 8rem;
-    margin-left: 5rem;
-    column-gap: 2rem;
+
+  .cv-button-box{
+    border-radius: 5%;
+    height: 20px;
+    width: 100px;
+    margin-left: -4%;
+    margin-top: -30px;
+    background-color: rgba(111, 0, 255, 0.267);
   }
   
   .text-wrapper{
@@ -521,4 +555,4 @@
     display: none;
   }
 
- 
+}

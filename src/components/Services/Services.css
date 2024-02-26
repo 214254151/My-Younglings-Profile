@@ -165,14 +165,10 @@
   }
   .menu-cage {
     width: 700px;
-
   }
   .home-cage :hover{
     background-color: #0818a749; 
-    border-style: outset;
-    transition: 1s;
-    
-    border-radius: 35%;
+    border-radius: 10%;
     size: 10px;
     height: fit-content;
   }

@@ -61,6 +61,12 @@ function Home() {
             </a>
           </div>
 
+          <div className="linkedIn-button-box">
+            <a href="https://www.linkedin.com/in/abongile-tshopi-05b594169/" download>
+            <img src="/linkedin-logo.svg" alt="LinkedIn" className="linkedin-image"/>
+            </a>
+          </div>
+
             {/* <div className="cv-button-box">
           <a href="/ABONGILE TSHOPI'S RESUME.pdf"></a>
               <button type="linkedinBtn" ></button>

@@ -55,10 +55,11 @@ function Home() {
           </div>
         </div>
 
-        <div className="cv-button-box">
-          <a href="/ABONGILE TSHOPI'S RESUME.pdf"></a>
-              <button type="cv-button" >Donwload CV</button>
-            </div>
+          <div className="cv-button-box">
+            <a href="/ABONGILE TSHOPI'S RESUME.pdf" download>
+            <button type="button" className="cv-button">Download CV</button>
+            </a>
+          </div>
 
             {/* <div className="cv-button-box">
           <a href="/ABONGILE TSHOPI'S RESUME.pdf"></a>

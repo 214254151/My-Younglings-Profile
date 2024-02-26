@@ -1,5 +1,8 @@
+.mainFrame{
+  height: 860px;
+}
 
-  .logo {
+ .logo {
     width: 60px;
     height: 60px;
     padding: 12px;
@@ -17,8 +20,63 @@
   }
   
 
+  .cv-button-box{
+    border-radius: 10%;
+    height: 20px;
+    width: 90px;
+    margin-left: 40%;
+    margin-top: -50px;
+    background-color: #ACAFF5; 
+    padding: 10px 30px; 
+    font-size: 16px;
+    border-top: outset;
+    border-left: outset;
+    cursor: pointer;
+  }
+ 
 
+  .cv-button-box:hover {
+    
+    background-color: #ffffff98; 
+    border-color: #ffffff5e;
+  }
 
+  /* --------------------////////////////////////////// */
+  @media screen and (max-width: 1921px) {
+    .waves{
+      display: flex;
+      margin-top: 120px;
+    }
+    .homePagePic{
+      height: 8;
+      margin-left: 150%;
+      
+    }
+    .mainFrame{
+      height: 860px;
+    }
+  }
+/* -------------------------------------------------- */
+  @media screen and (max-width: 1280px) {
+    .waves{
+      display: flex;
+      margin-top: -80px;
+    }
+    .homePagePic{
+      height: 8;
+      margin-left: 150%;
+      
+    }
+    .mainFrame{
+      height: 660px;
+    }
+    cv-button-box a{
+      margin-top: -80px;
+      margin-left: -10px;
+      text-align: center; 
+      
+    }
+  }
 
   /* -----------------------responsive------- */
   @media screen and (max-width: 768px) {
@@ -48,8 +106,6 @@
     .homepage-image{
       margin-left: -26%;
       margin-top: 4%;
-
-      
     }
     .homepage-content {
       flex-direction: column;

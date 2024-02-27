@@ -18,7 +18,17 @@
     justify-content: center;
     padding: 10px;
   }
-  
+  .menu-cage{
+    margin-left: -45px;
+    padding-left: -34%;
+    position: fixed;
+
+    .home-cage{
+      padding-left: 25%;
+      
+      
+    }
+  }
 
   .cv-button-box{
     border-radius: 10%;
@@ -57,6 +67,7 @@
     height: auto; 
    
   }
+  /* -----------------------responsive------- */
   /* --------------------////////////////////////////// */
   @media screen and (max-width: 1921px) {
     .waves{
@@ -94,14 +105,14 @@
     }
   }
 
-  /* -----------------------responsive------- */
+  
   @media screen and (max-width: 768px) {
     .nav-bar {
       justify-content: center; 
       height: auto;
       flex-wrap: wrap;
     }
-  
+
     .logo {
       margin-right: auto; 
       margin-left: -10px;
@@ -155,6 +166,50 @@
   }
 
 }
+
+
+@media screen and (max-width: 1440px) {
+  .waves{
+    background-size: contain;
+  }
+
+  .homepage-content {
+    display: flex;
+    margin-top: 8rem;
+    margin-left: 5rem;
+    column-gap: 2rem;
+  }
+  
+  .homepage-image {
+    margin-top: -5.2rem;
+    margin-left: -410px;
+    opacity: 75%;
+  }
+
+  .homePagePic{
+    left: -110px;
+  }
+
+  .cv-button-box{
+    padding-left: 1%;
+    width: 90px;
+    
+    
+  }
+  .waves{
+    margin-top: -3.7rem;
+    height: 200px;
+    opacity: 75%;
+    width: 100%;
+    border-bottom-right-radius: 5dvb;
+    border-bottom-left-radius: 5dvb;
+  }
+
+  .mainFrame{
+    height: 685px;
+  }
+
+}
   
   .text-wrapper{
     color: rgb(33, 35, 173);
@@ -174,7 +229,6 @@
   }
   .about-cage :hover{
     background-color: #0818a749; 
-    border-style: outset; 
     border-radius: 10%;
     size: 10px;
     height: fit-content;
@@ -182,15 +236,12 @@
   }
   .services-cage :hover{
     background-color: #0818a749; 
-    border-style: outset; 
     border-radius: 10%;
     size: 10px;
     height: fit-content;
   }
   .projects-cage :hover{
     background-color: #0818a749; 
-    border-style: outset;
-   
     border-radius: 10%;
     size: 10px;
     height: fit-content;
@@ -198,7 +249,6 @@
   }
   .contact-cage :hover{
     background-color: #0818a749; 
-    border-style: outset;
     border-radius: 10%;
     size: 10px;
     height: fit-content;

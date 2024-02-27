@@ -56,7 +56,51 @@
       background-size: contain;
     }
   }
+
+
+
+
+  @media screen and (max-width: 1440px) {
+    .waves{
+      background-size: contain;
+    }
+
+    .homepage-content {
+      display: flex;
+      margin-top: 8rem;
+      margin-left: 5rem;
+      column-gap: 2rem;
+    }
+    
+    .homepage-image {
+      margin-top: -5.2rem;
+      margin-left: 133px;
+      opacity: 75%;
+    }
+
+    /* .homePagePic{
+      left: 10px;
+    } */
   
+    .cv-button-box{
+      padding-left: 40%;
+    }
+    .waves{
+      margin-top: -3.7rem;
+      height: 200px;
+      opacity: 75%;
+      width: 100%;
+      border-bottom-right-radius: 5dvb;
+      border-bottom-left-radius: 5dvb;
+    }
+
+  }
+  
+
+
+
+
+
   .homepage-content {
     display: flex;
     margin-top: 8rem;

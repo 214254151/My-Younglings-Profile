@@ -175,36 +175,33 @@
   .about-cage :hover{
     background-color: #0818a749; 
     border-style: outset; 
-    border-radius: 35%;
+    border-radius: 10%;
     size: 10px;
     height: fit-content;
-    transition: 1s;
+    
   }
   .services-cage :hover{
     background-color: #0818a749; 
     border-style: outset; 
-    border-radius: 35%;
+    border-radius: 10%;
     size: 10px;
     height: fit-content;
-    transition: 1s;
   }
   .projects-cage :hover{
     background-color: #0818a749; 
     border-style: outset;
    
-    border-radius: 35%;
+    border-radius: 10%;
     size: 10px;
     height: fit-content;
-    transition: 1s;
+    
   }
   .contact-cage :hover{
     background-color: #0818a749; 
     border-style: outset;
-    
-    border-radius: 35%;
+    border-radius: 10%;
     size: 10px;
     height: fit-content;
-    transition: 1s;
   }
   .menu-cage{
     /* background-color: rgb(208, 252, 252); */

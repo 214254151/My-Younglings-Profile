@@ -70,26 +70,32 @@
   @media screen and (max-width: 1921px) {
     .waves{
       display: flex;
-      margin-top: 120px;
+      margin-top: 11px;
     }
     .homePagePic{
-      height: 8;
-      margin-left: 150%;
+     padding-left: 30%;
+     padding-top: 40%;
+     margin-left: 150%;
       
     }
     .mainFrame{
       height: 860px;
+    }
+
+    .homepage-roles{
+      padding-top: 5%;
+
     }
   }
 /* -------------------------------------------------- */
   @media screen and (max-width: 1280px) {
     .waves{
       display: flex;
-      margin-top: -80px;
+      margin-top: -60px;
     }
     .homePagePic{
       height: 8;
-      margin-left: 150%;
+      margin-left: 110%;
       
     }
     .mainFrame{
@@ -270,48 +276,6 @@
     
     
   }
-  .menu-cage {
-    width: 700px;
-  }
-  .home-cage :hover{
-    background-color: #0818a749; 
-    border-radius: 10%;
-    size: 10px;
-    height: fit-content;
-  }
-  .about-cage :hover{
-    background-color: #0818a749; 
-    border-radius: 10%;
-    size: 10px;
-    height: fit-content;
-    
-  }
-  .services-cage :hover{
-    background-color: #0818a749; 
-    border-radius: 10%;
-    size: 10px;
-    height: fit-content;
-  }
-  .projects-cage :hover{
-    background-color: #0818a749; 
-    border-radius: 10%;
-    size: 10px;
-    height: fit-content;
-    
-  }
-  .contact-cage :hover{
-    background-color: #0818a749; 
-    border-radius: 10%;
-    size: 10px;
-    height: fit-content;
-  }
-  .menu-cage{
-    /* background-color: rgb(208, 252, 252); */
-    /* size: 10px; */
-    /* height: fit-content; */
-    margin-right: 70px;
-  }
-
  
   .myServices{
     color: rgb(9, 12, 143);

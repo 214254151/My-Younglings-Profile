@@ -107,3 +107,30 @@
 
   
 }
+
+@media screen and (max-width: 1921px) {
+  .contactText{
+    padding-left: 350px;
+  }
+
+  .contactFormBox{
+    margin-left: 344px;
+  }
+
+  .contactImage{
+    margin-left: 1300px;
+    height: 670px;
+    width: 640px;
+    
+    
+    .circle-icons{
+        height: 650px;
+        width: 750px;
+        margin-top: 4px;
+        margin-left: -80px;
+    }
+  }
+
+
+  
+}

@@ -1,15 +1,45 @@
-.mainAppFrame {
-    background-color: #004d7c82;
-    width: 100%;
-    height: auto;
-    
-  }
+body {
+  overflow: hidden;
+  background-color: #6267dfd3;
   
-  .backgroundImage0{
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.7), rgb(0, 0, 0));
-    opacity: 100%;
+}
+  .aboutBodyFrame{
+    background-color: #AC66E1;
+    background-color: #6267dfd3;
+    width: 99.7%;
+    height: 91.0vh;
+    padding-right: 0px;
+    margin-bottom: 0px;
+    margin-top: 0%;
+    border-bottom-left-radius: 5dvb;
+    border-left-style: outset;
+    border-style: outset;
+    clip-path: polygon(0% 0%,30% 0%, 65% 100%,0% 100%);
   }
 
+  .aboutCube{
+    background-color: #6267dfd3;
+    background-color: #AC66E1;
+    border-bottom-right-radius: 5dvb;
+    border-bottom-left-radius: 5dvb;
+    border-right-style: outset;
+    margin-top: 0%;
+    
+  }
+
+  /* .stage-cube-cont{ */
+    /* background-color: #c54b4bd3; */
+    /* padding-right: 0px; */
+    /* margin-bottom: 0px; */
+    /* clip-path: polygon(10% 60%, 0% 6%,100% 6%, 100% 100%,100% 100%); */
+    /* border-bottom-right-radius: 5dvb; */
+  /* } */
+
+  .welcomeText{
+    padding: 0%;
+    padding-top: 4%;
+  }
+  
   @media screen and (max-width: 767px) {
     .backgroundImage0{
       background-size: contain;
@@ -20,7 +50,9 @@
       margin-left: 20px; /* Adjust margin for smaller screens */
       margin-top: -200px; /* Adjust margin for smaller screens */
       width: 300px; /* Adjust width for smaller screens */
+
     }
+
   
     .welcomeText h4 {
       font-size: 20px; /* Adjust font size for smaller screens */
@@ -74,11 +106,11 @@
     }
 
     h4{
-      color: #d495e3;
+      color: #ffffff;
       font-size: 25px;
 
       span{
-        color: #e78a08;
+        color: #d495e3;
       }
     }
 
@@ -87,18 +119,18 @@
   .aboutBody {
     display: flex;
     flex-direction: row;
-    padding-top: -80px;
+    padding-top: 600px;
    
   }
 
   /*----------------------------------------------------------------  */
   
-  .digitalSpace {
+  .vUviverse {
     display: inline-block;
     perspective: 1000px; 
     transition: transform 0.2s;
   }
-  .digitalSpace :hover{
+  .vUviverse :hover{
     color: #e7d808;
     transition: 0.2s;
     transform: rotateY(180deg);

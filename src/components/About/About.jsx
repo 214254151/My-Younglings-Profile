@@ -21,7 +21,7 @@ function aboutPage() {
 
         <div className="aboutBody">
           
-        <div className="welcomeText">Welcome To My <span className="digitalSpace"><i>Digital Space</i></span>
+        <div className="welcomeText"><h3>Welcome To My <span className="digitalSpace"><i>Digital Space</i></span></h3>
           
           <p>I'm a passionate software developer individual who is
               dedicated to improving skills through hands-on

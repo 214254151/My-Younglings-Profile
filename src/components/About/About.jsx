@@ -8,6 +8,7 @@ function aboutPage() {
   return (
 
     <div className="aboutCube" >
+      
       <div className="aboutBodyFrame">
         <div className="aboutBody">
 

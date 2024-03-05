@@ -8,7 +8,7 @@ function projects() {
         <div
           className="backgroundImage"
           style={{
-            backgroundImage: `url('/3D-icon-Logo.jpg')`,
+            backgroundImage: `url('/www.png')`,
             backgroundSize: "cover",
             backgroundPosition: "center",
             height: "80%",

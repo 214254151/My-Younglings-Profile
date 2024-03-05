@@ -24,16 +24,14 @@ body {
     border-bottom-left-radius: 5dvb;
     border-right-style: outset;
     margin-top: 0%;
+    opacity: 100%;
     
   }
 
-  /* .stage-cube-cont{ */
-    /* background-color: #c54b4bd3; */
-    /* padding-right: 0px; */
-    /* margin-bottom: 0px; */
-    /* clip-path: polygon(10% 60%, 0% 6%,100% 6%, 100% 100%,100% 100%); */
-    /* border-bottom-right-radius: 5dvb; */
-  /* } */
+  .aboutPic{
+    display: flex;
+    padding: 10%;
+  }
 
   .welcomeText{
     padding: 0%;
@@ -135,7 +133,7 @@ body {
     transition: 0.2s;
     transform: rotateY(180deg);
   }
-
+  
   /* ------------------------------------------------------------------ */
 
 .stage-cube-cont{
